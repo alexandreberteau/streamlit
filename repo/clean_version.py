@@ -15,6 +15,8 @@ import matplotlib.pyplot as plt
 import matplotlib.cm as cm
 import streamlit as st
 
+os.system('cmd /k "streamlit run clean_version.py"')
+
 def get_month(dt):
     return dt.month
 
